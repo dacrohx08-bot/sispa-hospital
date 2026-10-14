@@ -1,0 +1,22 @@
+PASO 1:INSTALAR GIT https://git-scm.com/install/windows
+
+
+PASO 2:Abre la terminal (CMD) en la nueva PC, escribe: 
+git --version y python --version para confirmar que responden correctamente.
+
+PASO 3: Descargar el proyecto desde GitHub:Clonar repositorio.Abre la terminal (CMD) en la carpeta donde quieras guardar el sistema en la nueva computadora y ejecuta:
+Bashgit clone https://github.com/dacrohx08-bot/sispa-hospital.git
+
+PASO 4: EJECUTAR ESTE MISMO CODIGO : cd sispa-hospital
+
+PASO 5: EJECUTAR ESTE COMANDO Y TE LLEVARA A LA CARPETA: start .
+
+PASO 6: Haz doble clic en el archivo sispa_main.py o ábrelo con un editor de texto (como el Bloc de notas o VS Code) para modificar los parámetros de conexión.
+Verificación: Se abrirá el código fuente del sistema en tu editor.
+Busca la línea donde se configura la conexión a la base de datos (donde normalmente dice host='localhost' o host='127.0.0.1') y reemplaza localhost por la dirección IP de la computadora principal donde está corriendo MariaDB.
+
+PASO 7: Verificación: Guarda los cambios en el archivo (Ctrl + S) asegurándote de que la IP escrita sea la correcta de la red local.
+Haz doble clic en el archivo iniciar_sispa (por lotes .bat) para arrancar el sistema en esta segunda computadora.
+Verificación: La interfaz gráfica se abrirá correctamente y cargará los datos conectados al servidor principal.
+
+PASO 8: Iniciar la aplicación Haz doble clic en el archivo iniciar_sispa (por lotes .bat) para arrancar el sistema en esta segunda computadora.Verificación: La interfaz gráfica se abrirá correctamente y cargará los datos conectados al servidor principal.

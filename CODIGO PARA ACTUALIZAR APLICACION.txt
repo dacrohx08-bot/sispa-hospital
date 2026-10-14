@@ -1,0 +1,9 @@
+Cada vez que hagas modificaciones en tu código y quieras actualizar GitHub, solo tendrás que ejecutar tres comandos sencillos en CMD:
+
+git add .
+git commit -m "Actualizacion de app.py"
+git push
+
+
+DESPUES:
+git pull
